@@ -31,7 +31,7 @@ document.addEventListener('keydown', (e) => {
         score_title.innerHTML = 'Score : ';
         score_val.innerHTML = '0';
         message.classList.remove('messageStyle');
-        play();
+        play() ;
     }
 });
 
